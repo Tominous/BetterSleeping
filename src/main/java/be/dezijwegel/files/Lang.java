@@ -236,8 +236,8 @@ public class Lang implements Reloadable {
     public void reload() {
         configAPI = new ConfigAPI(ConfigAPI.FileType.LANG, plugin);
         configAPI.reportMissingOptions();
-//        lang = new HashMap<String, Object>();
-//
-//        configAPI.loadTypesFromFile(String.class, lang);
+        lang = new HashMap<String, Object>();
+
+        configAPI.loadTypesFromFile(String.class, lang);
     }
 }
