@@ -1,4 +1,4 @@
-/*package be.dezijwegel.Testing;
+package be.dezijwegel.Testing;
 
 import org.bukkit.entity.Player;
 import org.junit.*;
@@ -14,9 +14,8 @@ public class BSTestClass {
     public BSTestClass()
     {
 
-        //Player player = PowerMockito.mock(Player.class);
+        Player player = PowerMockito.mock(Player.class);
 
         //Testing will be added later, when needed
     }
 }
-*/
